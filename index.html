@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container" class="container">
+    <nav>
+        <input class="seed-color" type="color" value="#F55A5A">
+        <select class="select-mode">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-Complement">analogic-Complement</option>
+            <option value="traid">traid</option>
+        </select>
+        <button>Get color Scheme</button>
+    </nav>
+
+    <main>
+        <div class="color">
+            <div class="color-div Monochrome"></div>
+            <p>#F55A5A</p>
+        </div> 
+        
+        <div class="color">
+            <div class="color-div lightblack"></div>
+            <p>#2B283A</p>
+        </div>
+        
+        <div class="color">
+            <div class="color-div lightyellow"></div>
+            <p>#FBF3AB</p>
+        </div>
+        
+        <div class="color">
+            <div class="color-div lightblue"></div>
+            <p>#AAD1B6</p>
+        </div>
+        
+        <div class="color">
+            <div class="color-div purple"></div>
+            <p>#A626D3</p>
+        </div>
+    </main>
+    <p class="copy-color">copied to clipboard</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
