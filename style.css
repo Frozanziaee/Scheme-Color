@@ -73,18 +73,16 @@ main {
 }
 
 .copy-color {
+    display: none;
     position: absolute;
-    top: -100;
+    top: 1em;
     left: 50%;
     transform: translate(-50%);
-    background-color: #F9A2A2;
-    padding: 0 2em;
-    color: #FBF3AB;
+    background-color: #2B283A;
+    padding: 0.5em 1em;
+    color: #FFFFFF;
     border: 1px solid #2B283A;
     border-radius: 0.5em;
    
     
-}
-.copy-color.active {
-    top: 1em;
 }

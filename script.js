@@ -42,9 +42,9 @@ document.querySelector("main").innerHTML = feedHtml
 
 function getCopyColor(){
     const copyColor = document.querySelector(".copy-color")
-    copyColor.classList.add("active") 
+    copyColor.style.display = "block"
     setTimeout(()=> {
-        copyColor.classList.remove("active")
+        copyColor.style.display = "none"
     }, 2000)
     
 }
